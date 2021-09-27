@@ -2,12 +2,12 @@
     <div class="my-nav">
         <div class="main-nav">
             <h2 class="logo">
-                <img src="~/static/vegan.png" alt="">
+                <img src="~/static/Icons/vegan.png" alt="">
                 Plant Buddy
                 </h2>
             <ul class="nav-items">
                 <li><nuxt-link to="/">Home</nuxt-link></li>
-                <li><nuxt-link to="/about">About Us</nuxt-link></li>
+                <li><nuxt-link to="/services">Our Serivces</nuxt-link></li>
                 <li><nuxt-link to="/products">Our Products</nuxt-link></li>
                 <li><nuxt-link to="/contact">Contact Us</nuxt-link></li>
             </ul>
@@ -34,6 +34,7 @@ export default {
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
+    
 }
 .main-nav{
     width: 80%;

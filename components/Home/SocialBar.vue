@@ -2,13 +2,13 @@
     <div class="social">
         <div class="my-icons">
             <span class="my-icon">
-                <img src="~static/facebook.png" alt="">
+                <img src="~static/Icons/facebook.png" alt="">
             </span>           
             <span class="my-icon">
-                <img src="~static/instagram.png" alt="">
+                <img src="~static/Icons/instagram.png" alt="">
             </span>
             <span class="my-icon">
-                <img src="~static/twitter.png" alt="">
+                <img src="~static/Icons/twitter.png" alt="">
             </span>        
             <span class="line"></span>
         </div>

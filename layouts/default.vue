@@ -17,7 +17,7 @@ export default {
 <style scoped>
 .main-div{
   background-color: rgb(196, 196, 196);
-  height: 100vh;
+  height: auto;
   font-family: monospace;
 }
 </style>

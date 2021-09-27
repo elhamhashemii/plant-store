@@ -2,13 +2,13 @@
     <div class="side-nav">
         <div class="my-icons">
             <span class="my-icon">
-                <img src="~/static/loupe.png" alt="">
+                <img src="~/static/Icons/loupe.png" alt="">
             </span>
             <span class="my-icon">
-                <img src="~static/user.png" alt="">
+                <img src="~static/Icons/user.png" alt="">
             </span>
             <span class="my-icon">
-                <img src="~static/menu.png" alt="">
+                <img src="~static/Icons/menu.png" alt="">
             </span>
         </div>
     </div>
