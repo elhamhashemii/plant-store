@@ -4,7 +4,7 @@
         <h1>KEEP YOUR  <br>
         PLANTS HEALTHY
         </h1>
-        <p>Plants Reduce Stress Levels And Boost Your Mood - Making <br>
+        <p>Plants Reduce Stress Levels And Boost Your Mood - Making
         Them Perfect For Your Home And Your Work Space, Too.
         </p>
         <span class="green-btn">See More</span>
@@ -13,8 +13,6 @@
 
 <style scoped>
 .text-content{
-    padding-left: 60px;
-    padding-top: 70px;
     display: flex;
     flex-direction: column;
 }

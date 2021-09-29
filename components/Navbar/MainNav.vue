@@ -50,7 +50,6 @@ export default {
     position: absolute;
     top: -2px;
     left: 30px;
-    filter: brightness(200%);
     width: 30px;
     height: 30px;
 }

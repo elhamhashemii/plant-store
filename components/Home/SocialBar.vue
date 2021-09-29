@@ -10,19 +10,19 @@
             <span class="my-icon">
                 <img src="~static/Icons/twitter.png" alt="">
             </span>        
-            <span class="line"></span>
+            <span class="line" ></span>
         </div>
     </div>
 </template>
 
 <style scoped>
 .social{
-    margin-top: 200px;
+    position: relative;
 }
 .my-icons{
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
     
 }
 .my-icon img{
@@ -33,7 +33,8 @@
 }
 .line {
     border-left: 2px solid #1A3237;
-    height: 228px;
-    margin-right: 8px;
+    height: 50vh;
+    position: absolute;
+    bottom: -50px;
 }
 </style>
