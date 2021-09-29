@@ -89,7 +89,7 @@ h2{
 }
 p{
     padding: 20px;
-    margin: 40px 50px 40px 20px;
+    margin: 80px 50px 40px 10px;
     border: 1px solid black;
 }
 </style>
