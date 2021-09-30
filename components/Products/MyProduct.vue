@@ -1,28 +1,42 @@
 <template>
     <div class="base-card">
         <div class="p-img">
-            <img src="~/static/Pics/1.png" alt="">
+            <img src= 'src' alt="">
         </div>
         <div class="p-title">
-            <h2>Title</h2>
+            <h2>{{ title }}</h2>
         </div>
         <div class="p-des">
-            <p>Lorem ipsum dolor sit amet.</p>
+            <p>{{ des }}</p>
         </div>
         <div class="p-price">
             <span class="price">
-                <!-- <img src="~/static/Icons/save-money.png" alt=""> -->
-                $100
+                {{ price }}
             </span>
         </div>
         <div class="p-btn">
-            <span class="buy">
-                add to cart
-                <!-- <img src="~/static/Icons/shopping-cart.png" alt=""> -->
-            </span>
+            <span class="buy">add to cart</span>
         </div>
     </div>
 </template>
+
+<script>
+// import { mapState } from 'vuex' 
+export default {
+    // props: ['src', 'title', 'des', 'price'],
+    data(){
+        return{
+            src: '../static/Pics/2.png',
+            title: 'Try',
+            des: 'LORedtrfgiujpoknhv',
+            price: '225'
+        }
+    },
+    // computed: {
+    //     ...mapState(['products'])
+    // }
+}
+</script>
 
 <style scoped>
 .base-card{

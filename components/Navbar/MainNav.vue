@@ -1,6 +1,6 @@
 <template>
     <div class="my-nav">
-        <div class="main-nav">
+        <div class="main-nav" v-if="!smallScreen">
             <h2 class="logo">
                 <img src="~/static/Icons/vegan.png" alt="">
                 Plant Buddy
@@ -12,17 +12,25 @@
                 <li><nuxt-link to="/contact">Contact Us</nuxt-link></li>
             </ul>
         </div>
-        <div class="side-nav">
+        <div class="side-nav" v-if="!smallScreen">
             <side-nav></side-nav>
         </div>
+        <small-nav v-if="smallScreen"></small-nav>
     </div>
 </template>
 
 <script>
 import SideNav from './SideNav.vue'
+import SmallNav from './SmallNav.vue'
 export default {
     components:{
-        SideNav
+        SideNav,
+        SmallNav
+    },
+    data(){
+        return{
+            smallScreen: false
+        }
     }
 }
 </script>

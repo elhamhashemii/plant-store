@@ -6,9 +6,13 @@
 
 <script>
 import MyProduct from '../components/Products/MyProduct.vue'
+import { mapState } from 'vuex' 
 export default {
     components: {
         MyProduct
+    },
+    computed: {
+        ...mapState(['products'])
     }
 }
 </script>

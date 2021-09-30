@@ -31,7 +31,7 @@ export default {
 .humb-menu{
     background-color: #142E38;
     padding: 10px;
-    border-bottom-right-radius: 30px;
+    /* border-bottom-right-radius: 30px; */
     text-align: center;
 }
 .humb-menu img{
